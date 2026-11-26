@@ -1,0 +1,49 @@
+{
+  "name": "memorial-qr-toolkit",
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "overrides": {
+    "@expo/fingerprint": { "minimatch": "11.0.9" }
+  },
+  "private": true,
+  "description": "Face-aware portrait alignment and QR image generation extracted from Hatirasina.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "react-native": "src/index.native.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4",
+    "jsqr": "1.4.0",
+    "memorialever-face-detection": "file:modules/memorialever-face-detection"
+  },
+  "peerDependencies": {
+    "@shopify/react-native-skia": "2.6.2",
+    "expo": "57.0.34",
+    "expo-crypto": "57.0.4",
+    "expo-file-system": "57.0.7",
+    "expo-image-manipulator": "57.0.23",
+    "expo-modules-core": "57.0.26",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "@shopify/react-native-skia": "2.6.2",
+    "expo": "57.0.34",
+    "expo-crypto": "57.0.4",
+    "expo-file-system": "57.0.7",
+    "expo-image-manipulator": "57.0.23",
+    "expo-modules-core": "57.0.26",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "typescript": "6.0.3",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.2.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hatirasinamezarqr/memorial-qr-toolkit.git"
+  }
+}

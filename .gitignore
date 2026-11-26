@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+dist/
+coverage/
+*.tgz
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+.DS_Store

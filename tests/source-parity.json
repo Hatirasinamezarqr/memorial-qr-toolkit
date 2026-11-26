@@ -1,0 +1,43 @@
+{
+  "exactSourceFiles": [
+    "geometry.ts",
+    "qr-matrix.ts",
+    "qr-decoder.ts",
+    "cache.native.ts",
+    "face-detector.native.ts"
+  ],
+  "unchangedFunctions": {
+    "service.native.ts": [
+      "sourcesFromInput",
+      "prepareSource",
+      "qrDebugFiles",
+      "selectSource",
+      "sourceScore",
+      "sourceLabel",
+      "rememberCompletedQr",
+      "cachedAdaptiveQr",
+      "plainQr",
+      "generateMemorialQr"
+    ],
+    "renderer.native.ts": [
+      "paint",
+      "vividPhotoPaint",
+      "loadImage",
+      "drawPreparedPhoto",
+      "drawBlurredCover",
+      "drawFacelessPhoto",
+      "drawSubjectFitPhoto",
+      "rgbaSnapshot",
+      "darkModuleLuminances",
+      "renderQrModules",
+      "renderCandidate",
+      "writeDebugSurface",
+      "renderPhotoDebug",
+      "resizedPixels",
+      "validateQr",
+      "renderAdaptiveQr",
+      "renderPlainQr"
+    ]
+  },
+  "syntheticGeometryComparisons": 200
+}

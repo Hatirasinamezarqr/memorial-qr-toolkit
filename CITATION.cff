@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+title: "Memorial QR Toolkit"
+type: software
+authors:
+  - name: "Hatırasına"
+repository-code: "https://github.com/Hatirasinamezarqr/memorial-qr-toolkit"
+url: "https://hatirasina.com"
